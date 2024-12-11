@@ -1,0 +1,49 @@
+pleskserver. answered: 1187
+gruzo.kz
+username p-2342343
+sdfsd.gruzo.kz
+pomogite.gruzo.kz
+nodejs.gruzo.kz
+virtualizor.gruzo.kz
+wp.gruzo.kz
+onebula.gruzo.kz
+mxtest.gruzo.kz
+zone.gruzo.kz
+zless.gruzo.kz
+
+{
+    "host": "pleskserver.",
+    "id": "1187",
+    "name": "gruzo.kz",
+    "username": "username",
+    "userlogin": "p-2342343",
+    "domains": [
+        "sdfsd.gruzo.kz",
+        "pomogite.gruzo.kz",
+        "nodejs.gruzo.kz",
+        "virtualizor.gruzo.kz",
+        "wp.gruzo.kz",
+        "onebula.gruzo.kz",
+        "mxtest.gruzo.kz",
+        "zone.gruzo.kz",
+        "zless.gruzo.kz"
+    ]
+}
+
+ plesk db "SELECT name, id, webspace_id FROM domains WHERE name LIKE '%gruzo.kz%'"
++----------------------+------+-------------+
+| name                 | id   | webspace_id |
++----------------------+------+-------------+
+| gruzo.kz             | 1184 |           0 |
+| sdfsd.gruzo.kz       | 1185 |        1184 |
+| pomogite.gruzo.kz    | 1186 |        1184 |
+| nodejs.gruzo.kz      | 1187 |        1184 |
+| virtualizor.gruzo.kz | 1188 |        1184 |
+| wp.gruzo.kz          | 1189 |        1184 |
+| onebula.gruzo.kz     | 1190 |        1184 |
+| mxtest.gruzo.kz      | 1378 |        1184 |
+| zone.gruzo.kz        | 1379 |        1184 |
+| zless.gruzo.kz       | 1383 |        1184 |
++----------------------+------+-------------+
+
+'1184\ngruzo.kz\nusername\tp-2342343\nsdfsd.gruzo.kz\npomogite.gruzo.kz\nnodejs.gruzo.kz\nvirtualizor.gruzo.kz\nwp.gruzo.kz\nonebula.gruzo.kz\nmxtest.gruzo.kz\nzone.gruzo.kz\nzless.gruzo.kz'

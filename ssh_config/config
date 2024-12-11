@@ -1,0 +1,18 @@
+Include conf.d/*
+Host *
+	ControlMaster auto
+        ControlPath /tmp/%r@%h:%p
+        ServerAliveInterval 11
+        ControlPersist 30m 
+        ConnectTimeout=5
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication=no 
+
+#example
+Host server_host server_host.com.
+        HostName server_host.com
+        User user
+	
+
+	

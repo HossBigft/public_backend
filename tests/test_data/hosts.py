@@ -1,0 +1,10 @@
+class HostList():
+    DOMAIN_WITH_EXISTING_A_RECORD = "google.com"
+    DOMAIN_WITH_EXISTING_MX_RECORD = "mxtest.dummy.kz"
+    CORRECT_EXISTING_DOMAIN = "dummy.kz"
+    DOMAIN_WITHOUT_ZONE_MASTER = "zless.dummy.kz"
+    CORRECT_EXISTING_SUBDOMAIN = "wp.dummy.kz"
+    MALFORMED_DOMAIN = "googlecom."
+    IP_WITHOUT_PTR = "89.46.33.63"
+    IP_WITH_PTR = "89.35.125.6"
+    SSH_TEST_SERVER = "vtest"
